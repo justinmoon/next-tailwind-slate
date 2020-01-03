@@ -8,10 +8,7 @@ function Header() {
     <header className="bg-teal-500">
       <div className="flex flex-wrap md:flex-no-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
         <div className="flex items-center">
-          <img
-            src="tailwind-logo.svg"
-            className="mr-3 text-white w-10"
-          />
+          <img src="tailwind-logo.svg" className="mr-3 text-white w-10" />
 
           <Link href="/">
             <a className="font-bold text-white text-xl">
@@ -41,6 +38,7 @@ function Header() {
         >
           {[
             { title: "Home", route: "/" },
+            { title: "Editor", route: "/editor" },
             { title: "About", route: "/about" }
           ].map(navigationItem => (
             <li className="mt-3 md:mt-0 md:ml-6" key={navigationItem.title}>
