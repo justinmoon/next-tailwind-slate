@@ -26,7 +26,7 @@
     "next": "^9.1.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "rich-markdown-editor": "^9.11.1"
+    "rich-markdown-editor": "github:justinmoon/rich-markdown-editor#master"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "1.3.0",
