@@ -23,7 +23,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "immutable": "^4.0.0-rc.12",
-    "next": "^9.1.6",
+    "next": "^9.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rich-markdown-editor": "github:justinmoon/rich-markdown-editor#master"
